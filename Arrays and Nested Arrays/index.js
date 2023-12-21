@@ -23,3 +23,4 @@ console.log(arr.length); // 2
 console.log(arr); //  […, 'Grapes', …, 'Oranges', 'Apples', …]
 // this was mind fucking
 console.log(arr.pop());
+console.log(arr);
