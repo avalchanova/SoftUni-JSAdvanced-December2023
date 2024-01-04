@@ -27,6 +27,7 @@ console.log(arr);
 
 //Filtering
 
-const cars = ['Audi', 'BMW', 'Mercedes', 'Opel', 'Lamborgini'];
+let cars = ['Audi', 'BMW', 'Mercedes', 'Opel', 'Lamborgini'];
 
-const fourLetterCars =;
+let fourLetterCars = cars.filter(car => car.length == 4);
+console.log(fourLetterCars);
