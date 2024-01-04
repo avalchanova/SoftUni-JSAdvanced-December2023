@@ -24,3 +24,9 @@ console.log(arr); //  […, 'Grapes', …, 'Oranges', 'Apples', …]
 // this was mind fucking
 console.log(arr.pop());
 console.log(arr);
+
+//Filtering
+
+const cars = ['Audi', 'BMW', 'Mercedes', 'Opel', 'Lamborgini'];
+
+const fourLetterCars =;
