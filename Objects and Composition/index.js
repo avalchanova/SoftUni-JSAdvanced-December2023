@@ -21,3 +21,7 @@ which address leads us to the heap and the is saved the content of the object:
 }
 */
 
+let otherCat = cat;
+
+// now what happens is otherCat copies cat's reference and both otherCat and cat will point at the same place
+// so when changes are made in whichever object they will appear in both places
