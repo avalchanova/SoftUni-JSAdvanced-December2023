@@ -35,3 +35,8 @@ let { ...newCat } = cat;
 // so new changes will apply to the cat object and the other way around
 newCat.name = "Onesie";
 console.log(cat.name + ' again');
+
+// Comparing objects
+
+console.log(cat == otherCat); // same reference
+console.log(newCat == cat); // same objects but diference reference (different addresses in the heap)
