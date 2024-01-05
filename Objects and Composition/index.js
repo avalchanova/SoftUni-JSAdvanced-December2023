@@ -21,7 +21,15 @@ which address leads us to the heap and the is saved the content of the object:
 }
 */
 
+// Copying by reference
 let otherCat = cat;
-
+otherCat.name = "Garfield";
 // now what happens is otherCat copies cat's reference and both otherCat and cat will point at the same place
 // so when changes are made in whichever object they will appear in both places
+console.log(cat.name);
+
+// Cloning an object
+// First way:
+let { ...newCat } = cat;
+// thanks to the spread operator the new object will not be a reference to the old one
+// so new changes will apply to the cat object and the other way around
