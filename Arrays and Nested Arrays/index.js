@@ -31,3 +31,4 @@ let cars = ['Audi', 'BMW', 'Mercedes', 'Opel', 'Lamborgini'];
 
 let fourLetterCars = cars.filter(car => car.length == 4);
 console.log(fourLetterCars);
+
