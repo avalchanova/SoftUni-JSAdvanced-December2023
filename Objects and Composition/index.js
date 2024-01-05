@@ -33,3 +33,5 @@ console.log(cat.name);
 let { ...newCat } = cat;
 // thanks to the spread operator the new object will not be a reference to the old one
 // so new changes will apply to the cat object and the other way around
+newCat.name = "Onesie";
+console.log(cat.name + ' again');
