@@ -51,6 +51,11 @@ let phoneBook = {
 };
 
 // accessing and assigning
-
 phoneBook['Vale Adelinova'] = "998877";
 console.log(phoneBook["Vale Adelinova"]);
+
+// Iteration
+for (key in phoneBook) {
+    console.log(key); // the key
+    console.log(phoneBook[key]); // the value
+}
