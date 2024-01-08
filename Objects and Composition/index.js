@@ -40,3 +40,17 @@ console.log(cat.name + ' again');
 
 console.log(cat == otherCat); // same reference
 console.log(newCat == cat); // same objects but diference reference (different addresses in the heap)
+
+// Associative Arrays
+// are just objects with with associative key-value pairs
+
+let phoneBook = {
+    "Ivan Georgiev": "11222333",
+    "Ivaylo Zapryanov": "223311",
+    "Vale Adelinova": "112211"
+};
+
+// accessing and assigning
+
+phoneBook['Vale Adelinova'] = "998877";
+console.log(phoneBook["Vale Adelinova"]);
