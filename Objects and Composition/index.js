@@ -93,3 +93,7 @@ let calc = {
 
 // Factory function
 // this is a functuion which composes and returns objects <3
+
+
+// Decorator function
+// a func which adds new data and behaviour to objects
