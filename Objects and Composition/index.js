@@ -71,3 +71,10 @@ console.log(phones);
 Object.keys(phoneBook).forEach(x => {
     console.log(`${x} - ${phoneBook[x]}`);
 });
+
+// Used for sorting of an object
+let entries = Object.entries(phoneBook); // the result is an array with arrays withing which hold name+phone number
+console.log(entries);
+for (const kvp of entries) {
+    console.log(kvp);
+}
