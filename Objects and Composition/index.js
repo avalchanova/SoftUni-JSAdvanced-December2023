@@ -78,3 +78,15 @@ console.log(entries);
 for (const kvp of entries) {
     console.log(kvp);
 }
+
+// Object as function library
+
+let calc = {
+    sum: function (a, b) {
+        return a + b;
+    },
+    multiplication: (a, b) => a * b,
+    substraction(a, b) {
+        return a - b;
+    }
+}; // all of these syntaxes are possible
