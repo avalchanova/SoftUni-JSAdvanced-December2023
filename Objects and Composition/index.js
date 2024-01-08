@@ -59,3 +59,15 @@ for (key in phoneBook) {
     console.log(key); // the key
     console.log(phoneBook[key]); // the value
 }
+// for in is for objects
+
+// Iteration Methods
+let names = Object.keys(phoneBook); // the result is an array
+let phones = Object.values(phoneBook);
+
+console.log(names);
+console.log(phones);
+
+Object.keys(phoneBook).forEach(x => {
+    console.log(`${x} - ${phoneBook[x]}`);
+});
