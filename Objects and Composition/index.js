@@ -90,3 +90,6 @@ let calc = {
         return a - b;
     }
 }; // all of these syntaxes are possible
+
+// Factory function
+// this is a functuion which composes and returns objects <3
