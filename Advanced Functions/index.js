@@ -2,6 +2,8 @@ const person = {
     name: "Pesho",
     lastName: "Georgiev",
     introduce() {
+        // let that = this; this is BLACK MAGIC as Ivaylo Papazov said, it is not supposed to be used
+        // but it look funny: to work we have to change the key word "this" below with the key word "that"
         const getFullName = function () {
             return this.name + ' ' + this.lastName;
         };
