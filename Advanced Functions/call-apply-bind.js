@@ -32,3 +32,5 @@ let superHuman = {
 
 let superIntroduction = introduce.bind(superHuman, 'Louis', 'Lane');
 superIntroduction();
+
+// the specific thing about bind() is that it creates new function with a given context and parameters
