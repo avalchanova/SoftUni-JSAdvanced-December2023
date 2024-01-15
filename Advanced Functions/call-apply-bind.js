@@ -15,6 +15,9 @@ introduce.call(person, "Gosho", "Pesho"); // invoke using call()
 // so call uses the context of person to envoke the introduce function
 // we will use parameters by spreading them like that when it is call() method
 
+
+// Apply
+
 introduce.apply(person, ["Gosho", "Peshanov"]);
 // parameters for apply() are used in []
 // Apply uses Array - this way i can remember
