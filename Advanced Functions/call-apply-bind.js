@@ -37,3 +37,4 @@ let superIntroduction = introduce.bind(superHuman, 'Louis', 'Lane');
 superIntroduction();
 
 // the specific thing about bind() is that it creates new function with a given context and parameters
+// bind is like the call method but we would use it later on, whereas call is used right away
