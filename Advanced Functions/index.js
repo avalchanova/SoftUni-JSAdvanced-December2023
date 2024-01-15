@@ -26,6 +26,7 @@ const person2 = {
         };
 
         console.log(`Hello, my name is ${getFullName()}`);
+        // console.log(getFullName);
     }
 };
 
