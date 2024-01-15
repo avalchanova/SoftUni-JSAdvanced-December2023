@@ -17,3 +17,5 @@ introduce.call(person, "Gosho", "Pesho"); // invoke using call()
 
 introduce.apply(person, ["Gosho", "Pesho"]);
 // parameters for apply() are used in []
+// Apply uses Array - this way i can remember
+
