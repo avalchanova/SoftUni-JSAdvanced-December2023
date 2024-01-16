@@ -8,3 +8,10 @@ function sayHello() {
 
 // sayHello is a HOF because it returns a function
 // addEventListener is also HOF
+
+
+
+// Built-in HOF:
+// Array.prototype.map()
+// Array.prototype.filter ---> filter приема параметър функция (first class func), която пък е предикат, защото връща булиън
+// Array.prototype.reduce
