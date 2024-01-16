@@ -16,3 +16,25 @@ counter();
 counter();
 counter();
 counter();
+
+
+
+
+
+function a() {
+    let name = "asdasd";
+    function b() {
+        let name2 = "asdasd2";
+        function c() {
+            let name3 = "asdasd3";
+            function d() {
+                let name4 = "asdasd4";
+                console.log(this);
+            }
+            d(); // global because we are running the function like that d()
+        }
+        c();
+    }
+    b();
+}
+a();
