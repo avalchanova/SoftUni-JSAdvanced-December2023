@@ -3,8 +3,9 @@ function solution(number) {
         return a + b;
     }
 
-    return add.bind(null, number);
-    //uses the bind method to bind the func with a null contextor this context which will force it to use the same context as the current context and then also another number as an arg
+    return add.bind(null, number); // same as add.bind(this, number)
+    //uses the bind method to bind the func with a 'null' contextor 'this'  context which will force it to use
+    // the same context as the current context and then also another number as an arg
 
     // return (n) => add(number, n); --- this is the same as the bind solution
 }
