@@ -1,3 +1,8 @@
+// Currying is a technique for function decomposition
+// supplying arguments one at a time instead of at once
+// because they may be coming from different sources
+// execution can be delayed until it's needed
+
 function sum3(a) {
     return (b) => {
         return (c) => {
