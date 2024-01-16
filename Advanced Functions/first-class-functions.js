@@ -15,3 +15,5 @@ sayHello()();
 let asd = sayHello();
 
 asd();
+
+// callback - a function which we pass as a param to another function and is executed lateron - handlerFunction is an example
